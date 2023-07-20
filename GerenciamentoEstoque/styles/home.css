@@ -19,7 +19,7 @@ body {
 }
 
 .cabeca-imagem{
-    height: 72px;
+    height: 50px;
 }
 
 .cabeca-menu{
@@ -36,8 +36,32 @@ body {
 
 .main{
     border-top: 0.4px solid #FFFFFF;
-    margin-bottom: 48px;
     background: #f4598e;
+}
+
+.main-titulo{
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+}
+
+.main-item{
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+}
+
+.main-nome{
+    font-size: 35px;
+    color: white;
+}
+
+.main-valor{
+    font-size: 15px;
+    color: white;
+}
+
+.main-quantidade{
+    font-size: 15px;
+    color: white;
 }
 
 .rodape{
@@ -46,6 +70,6 @@ body {
     align-items: center;
     font-family: 'Rubik', sans-serif;
     font-size: 24;
-    color: #999;
-    background: #f4598e;
+    color: white;
+    background: #9e0e60;
 }

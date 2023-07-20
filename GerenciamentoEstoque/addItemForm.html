@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiconar produto</title>
+    <link rel="stylesheet" type="text/css" href="styles/addForm.css">
+</head>
+<body>
+    <header class="cabeca">
+        <!--Imagem-->
+        <img class="cabeca-imagem" src="images/LogoRosaTextoLateralTherion.png" alt = "Imagem teste">
+        <!--Menu Navegação-->
+        <nav class="cabeca-menu">
+            <!--Botôes, Links-->
+            <a class="cabeca-menu-item" href="src/addItemForm.html">Adicionar Produto</a>
+            <a class="cabeca-menu-item">Remover Produto</a>
+            <a class="cabeca-menu-item">Editar Produto</a>
+        </nav>
+
+    </header>
+
+
+    <div>
+        <h1 id="titulo">Adicionar produtos</h1>
+        <p id="subtitulo">Preencha as informações</p>
+        <br>
+    </div>
+    
+    <form>
+        <div class="addNome">
+            <label for="nome">Nome do produto</label>
+            <input type="text" name="nome" id="nome_produto" required>
+        </div>
+
+        <div class="addValor">
+            <label for="valor">Valor do produto</label>
+            <input type="number" name="valor" id="valor_produto" required>
+        </div>
+
+        <div class="addQuantidade">
+            <label for="quantidade">Quantidade do produto</label>
+            <input type="number" name="quantidade" id="quantidade_produto" required>
+        </div>
+
+        <button class="botao" type="submit">Adicionar</button>
+
+    </form>
+
+    <footer class="rodape">
+        <!--A videoaula fala para por uma imagem, mas estou com preguiça de procurar outra, então vai apenas um texto-->
+        <h4>Sistema de gerenciamento da Therion Empresa Junior</h4>
+    </footer>
+
+
+</body>
+</html>
