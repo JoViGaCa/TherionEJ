@@ -13,7 +13,7 @@ const listProduct = document.querySelector(".main-item");
 nome_produto.textContent = product.name;
 nome_produto.classList.add("main-nome");
 
-valor_produto.textContent = "Valor: R$" + product.valor.toString();
+valor_produto.textContent = "Valor: R$ " + product.valor.toString();
 valor_produto.classList.add("main-valor");
 
 quantidade_produto.textContent = "Quantidade: " + product.quantidade.toString();

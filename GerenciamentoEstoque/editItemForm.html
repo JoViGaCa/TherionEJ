@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adiconar produto</title>
-    <link rel="stylesheet" type="text/css" href="styles/addForm.css">
+    <title>Editar Produto</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar produto</title>
+    <link rel="stylesheet" type="text/css" href="styles/removeForm.css">
 </head>
 <body>
     <header class="cabeca">
@@ -23,8 +32,8 @@
     </header>
 
 
-    <div class="div">
-        <h1 id="titulo">Adicionar produtos</h1>
+    <div>
+        <h1 id="titulo">Editar produtos</h1>
         <p id="subtitulo">Preencha as informações</p>
         <br>
     </div>
@@ -35,19 +44,19 @@
             <input type="text" name="nome" id="nome_produto" required>
         </div>
 
-        <div class="addValor">
-            <label for="valor">Valor do produto</label>
-            <input type="number" name="valor" id="valor_produto" required>
-        </div>
-
-        <div class="addQuantidade">
-            <label for="quantidade">Quantidade do produto</label>
-            <input type="number" name="quantidade" id="quantidade_produto" required>
-        </div>
-
-        <button class="botao" type="submit">Adicionar</button>
+        <button class="botao" type="submit">Procurar</button>
 
     </form>
+
+    <main class="main">
+        <h1 class="main-titulo">Resultado da pesquisa:</h1>
+        <section class="main-item">
+
+        </section>
+        <!--script src="js/scriptProduto.js"></script-->
+    </main>
+
+    <button class="botaoRemover" type="subimit">Remover</button>
 
     <footer class="rodape">
         <!--A videoaula fala para por uma imagem, mas estou com preguiça de procurar outra, então vai apenas um texto-->
@@ -55,5 +64,8 @@
     </footer>
 
 
+</body>
+</html>
+    
 </body>
 </html>
